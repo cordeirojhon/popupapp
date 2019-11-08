@@ -1,0 +1,27 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>Page Title</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0">
+		<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+		<script src="popup.js"></script>
+	</head>
+
+	<body>
+		
+		<script>
+			jQuery(document).ready(function(){
+				jQuery('body').popupapp({
+					body: 'BAIXE O NOSSO <span>APP CLUBE PLAENGE </span>E TENHA <br>DIREITO A AVENTOS EXCLUSIVOS E MUITO MAIS!',
+					gLink: "#",
+					iLink: "##",
+					gImage: "images/badge-googleplay.png",
+					iImage: "images/badge-apple.png",
+					insertIn: "append" //append, prepend, before, after
+				});
+			})
+		</script>
+	</body>
+</html>
